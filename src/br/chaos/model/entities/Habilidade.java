@@ -1,6 +1,6 @@
 package br.chaos.model.entities;
 
-public class Habilidades {
+public class Habilidade {
 
 	private int forca;
 	private int destreza;

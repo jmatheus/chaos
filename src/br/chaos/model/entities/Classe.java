@@ -5,7 +5,7 @@ public class Classe {
 	private String nome;
 	private String descricao;
 	// Resto dos Atributos (Diego)
-	private Habilidades hab;
+	private Habilidade hab;
 	private ClasseArmadura ca;
 	
 	// Getis e Setiiis
@@ -25,11 +25,11 @@ public class Classe {
 		this.descricao = descricao;
 	}
 
-	public Habilidades getHab() {
+	public Habilidade getHab() {
 		return hab;
 	}
 
-	public void setHab(Habilidades hab) {
+	public void setHab(Habilidade hab) {
 		this.hab = hab;
 	}
 

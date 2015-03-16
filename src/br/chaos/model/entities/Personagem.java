@@ -1,12 +1,12 @@
 package br.chaos.model.entities;
 
-public class Character {
+public class Personagem {
 
 	private String nome;
 	private Raca raca;
 	private Classe classe;
 	private int nivel;
-	private Habilidades hab;
+	private Habilidade hab;
 	private ClasseArmadura ca;
 	
 	//Getis e Setiiis
@@ -34,10 +34,10 @@ public class Character {
 	public void setNivel(int nivel) {
 		this.nivel = nivel;
 	}
-	public Habilidades getHab() {
+	public Habilidade getHab() {
 		return hab;
 	}
-	public void setHab(Habilidades hab) {
+	public void setHab(Habilidade hab) {
 		this.hab = hab;
 	}
 	public ClasseArmadura getCa() {
